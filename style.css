@@ -1,0 +1,61 @@
+body *{
+    display: flex;
+}
+
+header, section, aside, main, footer{
+    border: 1px solid violet;
+    margin: 5px;
+}
+
+header{
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: pink;
+}
+
+main{
+    height: 75vh;
+}
+
+main aside{
+    flex-grow: 1;
+}
+
+main section{
+    flex-grow: 5;
+}
+
+footer{
+    height: 100px;
+    margin-top: 5px;
+}
+
+#navbar{
+   flex-grow: 4;
+}
+
+#settings{
+    flex-grow: 1;
+}
+
+.main{
+    height: 100%;
+    width: inherit;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-black{
+    color:pink
+}
+
+.text-large{
+    font-size: 4em;
+}
+
+.main:hover{
+
+    background-color: wheat;
+}

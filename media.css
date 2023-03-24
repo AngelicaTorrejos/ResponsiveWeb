@@ -1,0 +1,33 @@
+@media only screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+    main aside { 
+        display: none;}
+    }
+
+
+@media only screen and (min-width: 600px) {
+    #settings{
+        display: none;
+    }
+}
+
+/* Meduim devices (landscape tablets, 780px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: rgb(223, 185, 221);
+    }
+}
+
+/* Extra Large devices (Large laptops/desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #settings{
+        display: flex;
+    }
+}
